@@ -9,3 +9,14 @@ Mission planning
 Sensor integration
 Telemetry monitoring
 Obstacle avoidance
+
+project structure:
+uav-target-detection/
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── detector.py     
+│   ├── visualizer.py   
+│   └── utils.py        
+├── demo.py             
+├── README.md
